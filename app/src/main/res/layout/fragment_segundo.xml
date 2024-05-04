@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1558D8"
+    tools:context=".segundoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#FEFEFE"
+                android:layout_gravity="center"
+                android:text="Pura Nacional" />
+
+
+            <ImageView
+                android:id="@+id/nasus"
+                android:layout_width="390dp"
+                android:layout_height="400dp"
+                android:src="@drawable/nasus"
+                android:layout_marginStart="-10dp"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#FEFEFE"
+                android:layout_gravity="center"
+                android:text="Menú" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Corona Extra" />
+
+                    <ImageView
+                        android:id="@+id/corona"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/corona"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasCorona"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Victoria Vienna" />
+
+                    <ImageView
+                        android:id="@+id/victoria"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/victoria"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasVictoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Pacifico Clara" />
+
+                    <ImageView
+                        android:id="@+id/pacifico"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/pacifico"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasPacifico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Negra Modelo" />
+
+                    <ImageView
+                        android:id="@+id/nmodelo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/nmodelo"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasMnegra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Modelo Especial" />
+
+                    <ImageView
+                        android:id="@+id/mespecial"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mespecial"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasMespecial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Montejo" />
+
+                    <ImageView
+                        android:id="@+id/montejo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/montejo"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasMontejo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/nac7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#B9704D"
+                        android:text="Indio" />
+
+                    <ImageView
+                        android:id="@+id/indio"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/indio"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasIndio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/vacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#4C7CD7"
+                android:layout_marginBottom="8dp"
+                android:text="."/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#140F13"
+    tools:context=".PrimerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#E5C99B"
+                android:layout_gravity="center"
+                android:text="Pura Artesanal" />
+
+
+            <ImageView
+                android:id="@+id/cerverus"
+                android:layout_width="390dp"
+                android:layout_height="400dp"
+                android:src="@drawable/cerverus"
+                android:layout_marginStart="-10dp"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#E5C99B"
+                android:layout_gravity="center"
+                android:text="Menú" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/ipa1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Sierra Nevada Celebration IPA" />
+
+                    <ImageView
+                        android:id="@+id/sierra"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/sierra"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasIpa1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/ipa2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Dogfish Head 60 Minute IPA" />
+
+                    <ImageView
+                        android:id="@+id/dogfish"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/dogfish"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasIpa2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/ipa3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#EB9000"
+                        android:text="Stone IPA" />
+
+                    <ImageView
+                        android:id="@+id/stone"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/stone"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasIpa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/lager1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Mexica Imperial" />
+
+                    <ImageView
+                        android:id="@+id/mexica"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mexica"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasLager1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/lager2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Brooklyn Lager" />
+
+                    <ImageView
+                        android:id="@+id/brooklyn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/brooklyn"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasLager2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/lager3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#FFE1B1"
+                        android:text="Pilsner Urquell" />
+
+                    <ImageView
+                        android:id="@+id/pilsner"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/pilsner"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasLager3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/stout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#B9704D"
+                        android:text="Guinness Draught" />
+
+                    <ImageView
+                        android:id="@+id/guines"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/guines"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasStout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/stout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#B9704D"
+                        android:text="Founders Breakfast Stout Chocolate" />
+
+                    <ImageView
+                        android:id="@+id/founders"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/founders"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasStout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/stout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#B9704D"
+                        android:text="Charro Negro Imperial Stout" />
+
+                    <ImageView
+                        android:id="@+id/charro"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/charro"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasStout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/smoothie1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#E8D424"
+                        android:text="Omnipollo Bianca Mango Lassi Gose" />
+
+                    <ImageView
+                        android:id="@+id/omnipollo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/omnipollo"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasSmothie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/vacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#140F13"
+                android:layout_marginBottom="8dp"
+                android:text="."/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

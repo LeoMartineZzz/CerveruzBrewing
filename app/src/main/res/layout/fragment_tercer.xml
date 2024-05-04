@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B2E03"
+    tools:context=".tercerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#8F5628"
+                android:layout_gravity="center"
+                android:text="Pura Sin Alcohol" />
+
+
+            <ImageView
+                android:id="@+id/tartarus"
+                android:layout_width="390dp"
+                android:layout_height="400dp"
+                android:src="@drawable/tartarus"
+                android:layout_marginStart="-10dp"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#8F5628"
+                android:layout_gravity="center"
+                android:text="Menú" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/sin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#5DA5B4"
+                        android:text="Everclear Blue Sky Pilsner" />
+
+                    <ImageView
+                        android:id="@+id/ever"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ever"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasEver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/sin2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#D37C59"
+                        android:text="Golden Harvest Pale Ale" />
+
+                    <ImageView
+                        android:id="@+id/golden"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/golden"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasGolden"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/sin3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#418DD1"
+                        android:text="Velvet Moon Stout" />
+
+                    <ImageView
+                        android:id="@+id/velvet"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/velvet"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasVelvet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/sin4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#C7814A"
+                        android:text="Ginger Zest Ale" />
+
+                    <ImageView
+                        android:id="@+id/ginger"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ginger"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasGinger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/sin5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="#0AA5DB"
+                        android:text="Azure Breeze Lager" />
+
+                    <ImageView
+                        android:id="@+id/azure"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/azure"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:id="@+id/verMasAzure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ver más"
+                        android:layout_marginStart="220dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/vacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#1B2E03"
+                android:layout_marginBottom="8dp"
+                android:text="."/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
